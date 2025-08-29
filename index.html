@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day Counter App</title>
+  <link rel="manifest" href="manifest.json" />
+  <script defer src="app.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+    header { background: #4CAF50; color: white; padding: 1rem; font-size: 1.5rem; }
+    #calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; padding: 10px; }
+    .day { border: 1px solid #ccc; padding: 20px; min-height: 80px; position: relative; }
+    .today { background: #f0f8ff; }
+    .counter { font-size: 1.2rem; margin-top: 5px; }
+    button { margin-top: 10px; padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <header>Day Counter App</header>
+  <div id="calendar"></div>
+</body>
+</html>
